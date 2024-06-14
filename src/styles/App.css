@@ -1,0 +1,281 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+img {
+    -webkit-user-drag: none;
+}
+
+.App {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 1000px;
+}
+
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    grid-gap: 15px;
+    margin-top: 20px;
+}
+
+.cross {
+    justify-self: end;
+    margin: 18px;
+    cursor: pointer;
+    position: absolute;
+}
+
+.mainBody {
+    padding: 100px;
+    max-width: 1250px;
+    width: 80%;
+}
+
+.createButton {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.createButton > button {
+    border: 0;
+    font-weight: bold;
+    font-size: 18px;
+    background: none;
+    cursor: pointer;
+}
+
+.filter {
+    border: 1px solid #D9D9D9;
+    border-radius: 6px;
+    padding: 8px;
+}
+
+.filter:focus {
+    outline: none;
+}
+
+.marker {
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+    opacity: 50%;
+    width: 120px;
+    margin-right: 10px;
+    height: 53px;
+}
+
+.newMarker {
+    margin-bottom: 12px;
+    display: flex;
+    background-color: #D9D9D9;
+    border-radius: 20px;
+    z-index: 2;
+    font-size: 12px;
+}
+
+.background {
+    width: 20px;
+    height: inherit;
+    border-radius: 20px 0 0 20px;
+}
+
+.blockMarker {
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    border-radius: 0 20px 20px 0;
+}
+
+.blockMarker > div {
+    display: flex;
+    justify-content: space-between;
+    width: inherit;
+    align-items: center;
+}
+
+.blockMarker input {
+    border: 0;
+    border-radius: 6px;
+    width: inherit;
+    font-size: inherit;
+    background: none;
+}
+
+.blockMarker input:focus {
+    outline: none;
+}
+
+.blockMarker button {
+    background-size: cover;
+    margin-right: 10px;
+    background-color: unset;
+    border: none;
+    cursor: pointer;
+}
+
+.overlay {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: #E6E6E6;
+    z-index: 1;
+    opacity: 50%;
+    min-width: 1250px;
+}
+
+.Youtube iframe {
+    width: 100%;
+}
+
+.auth {
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.auth > div {
+    width: 600px;
+    margin-bottom: 120px;
+}
+
+.projectInfo {
+    padding: 30px 10% 150px 10%;
+    max-width: 1250px;
+    width: 100%;
+    overflow: hidden auto;
+    height: 90vh;
+}
+
+.buttInProjInfo {
+    border: 0;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: unset;
+    cursor: pointer
+}
+
+.accept {
+    border: 0;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: unset;
+    cursor: pointer
+}
+
+.projectInfo h1, .fromH1  {
+    font-size: 30px;
+}
+
+.projectInfo h1 {
+    width: fit-content;
+}
+
+.fromH1 {
+    font-weight: 700;
+    color: #545454;
+    border: 0;
+    background: none;
+    width: 100%;
+}
+
+.fromH2 {
+    color: #808080;
+    border: 0;
+    background: none;
+    width: 100%;
+}
+
+.projectInfo h2, .fromH2 {
+    font-size: 20px;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+
+.projectInfo h2 {
+    color: #AFAFAF;
+    width: fit-content;
+}
+
+.projectInfo h3 {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.projectInfo h6 {
+    color: #808080;
+    font-weight: 400;
+    font-size: 12px;
+    margin-top: 8px;
+    width: 380px;
+}
+
+.projectInfo h4, .projectInfo li, .block input {
+    color: #545454;
+    padding: 10px 15px;
+    width: 280px;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.taskkk {
+    width: 280px !important;
+}
+
+.projectInfo ol {
+    padding-left: 18px;
+}
+
+.projectInfo li {
+    padding: 10px 0;
+}
+
+.block {
+    display: flex;
+    margin-bottom: 60px;
+    justify-content: space-between;
+}
+
+.block > div > div {
+    width: fit-content;
+    border-radius: 8px 8px 0 0;
+}
+
+.block input, .respondents {
+    color: black;
+    border: 0;
+    background: none;
+}
+
+.projectInfo input:focus {
+    outline: none;
+}
+
+.respondents {
+    padding: 10px 15px;
+    font-size: 15px;
+}
+
+.authButton {
+    cursor: pointer;
+    background: none;
+    border: 2px solid #808080;
+    font-size: 14px;
+    color: #808080;
+    font-weight: 600;
+    border-radius: 20px;
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+}

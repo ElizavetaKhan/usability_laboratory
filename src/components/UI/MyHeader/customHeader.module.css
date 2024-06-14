@@ -1,0 +1,28 @@
+.header {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    background: #2B2B2B;
+    position: relative;
+    height: 80px;
+    width: 100%;
+    max-width: unset !important;
+}
+
+.header .child {
+    display: flex;
+    align-items: center;
+    padding: 0 50px;
+    cursor: pointer;
+}
+
+.header button {
+    background-color: #AFAFAF;
+    border-radius: 8px;
+    margin-top: 60px;
+    margin-right: 80px;
+    border: none;
+    padding: 10px 20px;
+    position: absolute;
+    cursor: pointer;
+}

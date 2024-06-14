@@ -1,0 +1,40 @@
+/*input[type="file"] {*/
+/*    display: none;*/
+/*}*/
+
+.uploadField {
+    width: 35%;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 13px;
+    margin-top: 70px;
+}
+
+.notReady {
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.uploadField > input {
+    z-index: 1;
+}
+
+.uploadField > img {
+    opacity: 3%;
+    position: absolute;
+    width: 300px;
+    z-index: 0;
+}
+
+.uploadField > button {
+    border: 0;
+    background: none;
+    cursor: pointer;
+    padding: 10px;
+    z-index: 1;
+}
